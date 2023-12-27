@@ -1,45 +1,9 @@
-let express = require('express');
+let express = require("express");
 let app = express();
+exports.app = app;
 
+app.get("/", (req, res) => {
+  console.log("Hello World!");
+});
 
-app.get('/', (req, res) => {
-  res.send('Hello World!')
-})
-
-app.listen(3000, () => {
-  console.log(`Example app listening on port ${port}`)
-})
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- module.exports = app;
+module.exports = app;
