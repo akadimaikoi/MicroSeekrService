@@ -3,6 +3,7 @@
 	"author": "Rodrigo Motta",
 	"description": "A project that does something awesome",
 	"keywords": [ "microservice", "nodejs", "freecodecamp" ],
+	"license": "MIT",
 	"dependencies": {
 		"express": "^4.14.0"
 	},
